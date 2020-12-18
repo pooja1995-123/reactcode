@@ -1,0 +1,20 @@
+{
+  "name": "databaseconn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": ".\\node_modules\\.bin\\babel src  --out-dir dist",
+    "pre": "nodemon ./dist/One.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  }
+}
