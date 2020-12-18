@@ -1,0 +1,4 @@
+ "start": "nodemon app.js",
+    "dev":".\\node_modules\\.bin\\babel src --out-dir dist",
+    "pre":"nodemon ./dist/app.js",
+    "super":"nodemon app.js"

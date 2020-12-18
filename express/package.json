@@ -1,22 +1,24 @@
 {
-  "name": "seed",
+  "name": "express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "dev": ".\\node_modules\\.bin\\babel src  --out-dir dist",
+    "pre": "nodemon ./dist/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.10",
-    "@babel/register": "^7.12.10",
-    "babel-polyfill": "^6.26.0",
+    "@babel/preset-env": "^7.12.11",
+    "bootstrap": "^4.5.3",
     "express": "^4.17.1",
-    "mongodb": "^3.6.3",
-    "morgan": "^1.10.0",
     "nodemon": "^2.0.6"
   }
 }
+
+
