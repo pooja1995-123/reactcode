@@ -1,0 +1,1 @@
+Most Unix system calls have Windows analogues.The docs link to the corresponding man pages which describe how the system call works
